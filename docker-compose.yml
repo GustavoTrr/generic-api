@@ -1,0 +1,13 @@
+version: '3'
+services:
+  genericapi:
+    image: genericapi
+    container_name: genericapi
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+     - ./json_files:/app/json_files 
+      # To development uncomment the lines below, and comment the line above
+      # - /app/node_modules
+      # - .:/app
