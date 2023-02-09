@@ -1,7 +1,7 @@
 {
-    "name": "minhafesta",
+    "name": "genericapi",
     "version": "1.0.0",
-    "description": "A demo JSON server for serving guests data",
+    "description": "A demo JSON server for serving data as Generic REST API",
     "main": "app.js",
     "scripts": {
       "start": "node app.js"
