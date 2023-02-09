@@ -1,7 +1,9 @@
-# The focus of this Project is to simulate backend REST APIs to make easier to test frontend applications's integration and to mock responses
+# GENERIC REST API
 
-## It's a generic REST API that will deal with JSON files instead of database, so it makes simokier to install, run and change.
-* As it is very simple, and does not care about scure issues, it is for local and development pueposes only, Not recommended for production environment!
+## The focus of this project is to simulate backend REST APIs to facilitate integration testing of frontend applications and mock responses
+
+## It's a generic REST API that will handle JSON files instead of the database, making it simpler to install, run, and change data.
+* Since it is very simple and does not treat any security issues, it is indicated for local and development purposes only, not recommended for production environment!
 
 ## Stack
 
@@ -13,14 +15,12 @@
 
 ## How To run (SIMPLE):
 
-* Pre-requisite: Docker installed and working
+* Pre-requisites: Docker installed and running
 
-1. Download the project to your machine
-2. Open the terminal or cmd on the directory of the project
+1. Download the project on your machine
+2. Open the terminal or cmd in project directory
 3. run the command below:
- ```
- docker-compose up --build
-```
+``` docker-compose up --build ```
 
 Then you can access it through the URL
 http://localhost:3000/minhafesta/convidados
